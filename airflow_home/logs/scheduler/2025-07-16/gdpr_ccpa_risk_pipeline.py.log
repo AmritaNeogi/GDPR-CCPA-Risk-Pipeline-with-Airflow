@@ -594,3 +594,66 @@
 [2025-07-16T11:49:56.766-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:49:56.766-0700] {dag.py:2915} INFO - Sync 1 DAGs
 [2025-07-16T11:49:56.810-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:49:56.810-0700] {dag.py:3696} INFO - Setting next_dagrun for gdpr_ccpa_risk_pipeline to 2025-07-16T18:00:00+00:00, run_after=2025-07-16T19:00:00+00:00
 [2025-07-16T11:49:56.858-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py took 0.781 seconds
+[2025-07-16T11:50:29.951-0700] {processor.py:157} INFO - Started process (PID=92242) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:50:29.953-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py for tasks to queue
+[2025-07-16T11:50:29.954-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:50:29.954-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:50:30.123-0700] {processor.py:839} INFO - DAG(s) dict_keys(['gdpr_ccpa_risk_pipeline']) retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:50:30.544-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:50:30.544-0700] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-07-16T11:50:30.575-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:50:30.573-0700] {dag.py:3696} INFO - Setting next_dagrun for gdpr_ccpa_risk_pipeline to 2025-07-16T18:00:00+00:00, run_after=2025-07-16T19:00:00+00:00
+[2025-07-16T11:50:30.602-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py took 0.651 seconds
+[2025-07-16T11:51:04.217-0700] {processor.py:157} INFO - Started process (PID=92261) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:51:04.224-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py for tasks to queue
+[2025-07-16T11:51:04.225-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:51:04.225-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:51:04.293-0700] {processor.py:839} INFO - DAG(s) dict_keys(['gdpr_ccpa_risk_pipeline']) retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:51:04.955-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:51:04.954-0700] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-07-16T11:51:04.996-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:51:04.995-0700] {dag.py:3696} INFO - Setting next_dagrun for gdpr_ccpa_risk_pipeline to 2025-07-16T18:00:00+00:00, run_after=2025-07-16T19:00:00+00:00
+[2025-07-16T11:51:05.019-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py took 0.804 seconds
+[2025-07-16T11:51:37.994-0700] {processor.py:157} INFO - Started process (PID=92281) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:51:37.995-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py for tasks to queue
+[2025-07-16T11:51:37.995-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:51:37.995-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:51:38.068-0700] {processor.py:839} INFO - DAG(s) dict_keys(['gdpr_ccpa_risk_pipeline']) retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:51:38.422-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:51:38.421-0700] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-07-16T11:51:38.460-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:51:38.460-0700] {dag.py:3696} INFO - Setting next_dagrun for gdpr_ccpa_risk_pipeline to 2025-07-16T18:00:00+00:00, run_after=2025-07-16T19:00:00+00:00
+[2025-07-16T11:51:38.502-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py took 0.509 seconds
+[2025-07-16T11:52:11.270-0700] {processor.py:157} INFO - Started process (PID=92301) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:52:11.275-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py for tasks to queue
+[2025-07-16T11:52:11.276-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:52:11.276-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:52:11.623-0700] {processor.py:839} INFO - DAG(s) dict_keys(['gdpr_ccpa_risk_pipeline']) retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:52:13.857-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:52:13.857-0700] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-07-16T11:52:13.882-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:52:13.882-0700] {dag.py:3696} INFO - Setting next_dagrun for gdpr_ccpa_risk_pipeline to 2025-07-16T18:00:00+00:00, run_after=2025-07-16T19:00:00+00:00
+[2025-07-16T11:52:13.902-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py took 2.633 seconds
+[2025-07-16T11:52:49.255-0700] {processor.py:157} INFO - Started process (PID=92336) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:52:49.265-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py for tasks to queue
+[2025-07-16T11:52:49.267-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:52:49.266-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:52:49.343-0700] {processor.py:839} INFO - DAG(s) dict_keys(['gdpr_ccpa_risk_pipeline']) retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:52:49.650-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:52:49.648-0700] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-07-16T11:52:49.679-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:52:49.679-0700] {dag.py:3696} INFO - Setting next_dagrun for gdpr_ccpa_risk_pipeline to 2025-07-16T18:00:00+00:00, run_after=2025-07-16T19:00:00+00:00
+[2025-07-16T11:52:49.722-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py took 0.469 seconds
+[2025-07-16T11:53:21.821-0700] {processor.py:157} INFO - Started process (PID=92355) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:53:21.822-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py for tasks to queue
+[2025-07-16T11:53:21.822-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:53:21.822-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:53:21.864-0700] {processor.py:839} INFO - DAG(s) dict_keys(['gdpr_ccpa_risk_pipeline']) retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:53:22.042-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:53:22.041-0700] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-07-16T11:53:22.060-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:53:22.060-0700] {dag.py:3696} INFO - Setting next_dagrun for gdpr_ccpa_risk_pipeline to 2025-07-16T18:00:00+00:00, run_after=2025-07-16T19:00:00+00:00
+[2025-07-16T11:53:22.078-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py took 0.261 seconds
+[2025-07-16T11:53:54.835-0700] {processor.py:157} INFO - Started process (PID=92374) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:53:54.836-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py for tasks to queue
+[2025-07-16T11:53:54.837-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:53:54.837-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:53:55.004-0700] {processor.py:839} INFO - DAG(s) dict_keys(['gdpr_ccpa_risk_pipeline']) retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:53:55.263-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:53:55.262-0700] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-07-16T11:53:55.282-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:53:55.281-0700] {dag.py:3696} INFO - Setting next_dagrun for gdpr_ccpa_risk_pipeline to 2025-07-16T18:00:00+00:00, run_after=2025-07-16T19:00:00+00:00
+[2025-07-16T11:53:55.309-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py took 0.504 seconds
+[2025-07-16T11:54:27.405-0700] {processor.py:157} INFO - Started process (PID=92392) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:54:27.417-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py for tasks to queue
+[2025-07-16T11:54:27.419-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:54:27.419-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:54:27.522-0700] {processor.py:839} INFO - DAG(s) dict_keys(['gdpr_ccpa_risk_pipeline']) retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:54:27.806-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:54:27.805-0700] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-07-16T11:54:27.838-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:54:27.837-0700] {dag.py:3696} INFO - Setting next_dagrun for gdpr_ccpa_risk_pipeline to 2025-07-16T18:00:00+00:00, run_after=2025-07-16T19:00:00+00:00
+[2025-07-16T11:54:27.871-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py took 0.466 seconds
+[2025-07-16T11:55:00.845-0700] {processor.py:157} INFO - Started process (PID=92434) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:55:00.846-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py for tasks to queue
+[2025-07-16T11:55:00.854-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:55:00.854-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:55:01.009-0700] {processor.py:839} INFO - DAG(s) dict_keys(['gdpr_ccpa_risk_pipeline']) retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T11:55:01.381-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:55:01.380-0700] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-07-16T11:55:01.399-0700] {logging_mixin.py:151} INFO - [2025-07-16T11:55:01.398-0700] {dag.py:3696} INFO - Setting next_dagrun for gdpr_ccpa_risk_pipeline to 2025-07-16T18:00:00+00:00, run_after=2025-07-16T19:00:00+00:00
+[2025-07-16T11:55:01.431-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py took 0.595 seconds
