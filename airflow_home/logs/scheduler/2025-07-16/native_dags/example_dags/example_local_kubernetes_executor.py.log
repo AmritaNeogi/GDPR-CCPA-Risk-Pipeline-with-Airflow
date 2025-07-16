@@ -1,0 +1,55 @@
+[2025-07-16T01:47:53.601-0700] {processor.py:157} INFO - Started process (PID=84830) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-07-16T01:47:53.604-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-07-16T01:47:53.605-0700] {logging_mixin.py:151} INFO - [2025-07-16T01:47:53.604-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-07-16T01:47:54.035-0700] {logging_mixin.py:151} INFO - [2025-07-16T01:47:54.029-0700] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-07-16T01:47:54.035-0700] {logging_mixin.py:151} INFO - [2025-07-16T01:47:54.035-0700] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-07-16T01:47:54.035-0700] {processor.py:841} WARNING - No viable dags retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-07-16T01:47:54.563-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.963 seconds
+[2025-07-16T01:50:23.472-0700] {processor.py:157} INFO - Started process (PID=84948) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-07-16T01:50:23.472-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-07-16T01:50:23.473-0700] {logging_mixin.py:151} INFO - [2025-07-16T01:50:23.473-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-07-16T01:50:23.535-0700] {logging_mixin.py:151} INFO - [2025-07-16T01:50:23.535-0700] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-07-16T01:50:23.535-0700] {logging_mixin.py:151} INFO - [2025-07-16T01:50:23.535-0700] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-07-16T01:50:23.535-0700] {processor.py:841} WARNING - No viable dags retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-07-16T01:50:23.639-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.168 seconds
+[2025-07-16T01:54:32.184-0700] {processor.py:157} INFO - Started process (PID=85138) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-07-16T01:54:32.186-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-07-16T01:54:32.187-0700] {logging_mixin.py:151} INFO - [2025-07-16T01:54:32.187-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-07-16T01:54:32.255-0700] {logging_mixin.py:151} INFO - [2025-07-16T01:54:32.254-0700] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-07-16T01:54:32.255-0700] {logging_mixin.py:151} INFO - [2025-07-16T01:54:32.255-0700] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-07-16T01:54:32.255-0700] {processor.py:841} WARNING - No viable dags retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-07-16T01:54:32.362-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.179 seconds
+[2025-07-16T01:59:38.796-0700] {processor.py:157} INFO - Started process (PID=85382) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-07-16T01:59:38.848-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-07-16T01:59:38.849-0700] {logging_mixin.py:151} INFO - [2025-07-16T01:59:38.849-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-07-16T01:59:38.924-0700] {logging_mixin.py:151} INFO - [2025-07-16T01:59:38.923-0700] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-07-16T01:59:38.924-0700] {logging_mixin.py:151} INFO - [2025-07-16T01:59:38.924-0700] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-07-16T01:59:38.924-0700] {processor.py:841} WARNING - No viable dags retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-07-16T01:59:39.050-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.268 seconds
+[2025-07-16T02:02:10.405-0700] {processor.py:157} INFO - Started process (PID=85505) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-07-16T02:02:10.417-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-07-16T02:02:10.418-0700] {logging_mixin.py:151} INFO - [2025-07-16T02:02:10.418-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-07-16T02:02:10.471-0700] {logging_mixin.py:151} INFO - [2025-07-16T02:02:10.470-0700] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-07-16T02:02:10.471-0700] {logging_mixin.py:151} INFO - [2025-07-16T02:02:10.471-0700] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-07-16T02:02:10.471-0700] {processor.py:841} WARNING - No viable dags retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-07-16T02:02:10.593-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.190 seconds
