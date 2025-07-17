@@ -26,3 +26,5 @@ def validate_latest_xml():
 
 if __name__ == "__main__":
     validate_latest_xml()
+
+    

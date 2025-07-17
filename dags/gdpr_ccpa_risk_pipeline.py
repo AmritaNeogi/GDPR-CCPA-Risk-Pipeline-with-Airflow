@@ -69,3 +69,5 @@ with DAG(
     )
 
     fetch >> process >> forecast
+
+    

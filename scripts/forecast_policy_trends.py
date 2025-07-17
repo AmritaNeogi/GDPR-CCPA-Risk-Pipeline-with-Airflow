@@ -52,3 +52,5 @@ def forecast_policy_trends(periods=7, freq='D'):
 
 if __name__ == '__main__':
     forecast_policy_trends()
+
+    
