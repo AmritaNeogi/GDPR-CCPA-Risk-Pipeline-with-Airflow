@@ -9,3 +9,6 @@
 [2025-07-16T22:30:10.083-0700] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='gdpr_ccpa_risk_pipeline' AIRFLOW_CTX_TASK_ID='fetch_policy_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-16T23:45:56.311266+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-16T23:45:56.311266+00:00'
 [2025-07-16T23:16:28.537-0700] {process_utils.py:131} INFO - Sending 15 to group 16177. PIDs of all processes in the group: [16177]
 [2025-07-16T23:16:28.775-0700] {process_utils.py:86} INFO - Sending the signal 15 to group 16177
+[2025-07-16T23:17:02.581-0700] {taskinstance.py:1147} INFO - Dependencies not met for <TaskInstance: gdpr_ccpa_risk_pipeline.fetch_policy_data manual__2025-07-16T23:45:56.311266+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2025-07-16T23:17:02.582-0700] {taskinstance.py:1147} INFO - Dependencies not met for <TaskInstance: gdpr_ccpa_risk_pipeline.fetch_policy_data manual__2025-07-16T23:45:56.311266+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2025-07-16T23:17:02.605-0700] {local_task_job_runner.py:154} INFO - Task is not able to be run

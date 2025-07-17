@@ -569,3 +569,18 @@ TypeError: DAG.__init__() got an unexpected keyword argument 'load_examples'
 [2025-07-16T22:29:20.267-0700] {logging_mixin.py:151} INFO - [2025-07-16T22:29:20.252-0700] {dag.py:2915} INFO - Sync 1 DAGs
 [2025-07-16T22:29:21.365-0700] {logging_mixin.py:151} INFO - [2025-07-16T22:29:21.365-0700] {dag.py:3696} INFO - Setting next_dagrun for gdpr_ccpa_risk_pipeline to 2025-07-17T04:00:00+00:00, run_after=2025-07-17T05:00:00+00:00
 [2025-07-16T22:29:22.212-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py took 23.148 seconds
+[2025-07-16T23:21:46.959-0700] {processor.py:157} INFO - Started process (PID=18161) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T23:21:46.988-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py for tasks to queue
+[2025-07-16T23:21:46.988-0700] {logging_mixin.py:151} INFO - [2025-07-16T23:21:46.988-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T23:21:57.301-0700] {processor.py:839} INFO - DAG(s) dict_keys(['gdpr_ccpa_risk_pipeline']) retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T23:21:59.372-0700] {logging_mixin.py:151} INFO - [2025-07-16T23:21:59.365-0700] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-07-16T23:21:59.573-0700] {logging_mixin.py:151} INFO - [2025-07-16T23:21:59.570-0700] {dag.py:3696} INFO - Setting next_dagrun for gdpr_ccpa_risk_pipeline to 2025-07-17T05:00:00+00:00, run_after=2025-07-17T06:00:00+00:00
+[2025-07-16T23:21:59.758-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py took 12.811 seconds
+[2025-07-16T23:55:32.755-0700] {processor.py:157} INFO - Started process (PID=19664) to work on /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T23:55:32.802-0700] {processor.py:829} INFO - Processing file /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py for tasks to queue
+[2025-07-16T23:55:32.804-0700] {logging_mixin.py:151} INFO - [2025-07-16T23:55:32.804-0700] {dagbag.py:539} INFO - Filling up the DagBag from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T23:55:54.403-0700] {logging_mixin.py:151} INFO - [2025-07-16T23:55:54.403-0700] {plot.py:40} ERROR - Importing plotly failed. Interactive plots will not work.
+[2025-07-16T23:55:54.640-0700] {processor.py:839} INFO - DAG(s) dict_keys(['gdpr_ccpa_risk_pipeline']) retrieved from /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py
+[2025-07-16T23:55:58.452-0700] {logging_mixin.py:151} INFO - [2025-07-16T23:55:58.430-0700] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-07-16T23:55:58.719-0700] {logging_mixin.py:151} INFO - [2025-07-16T23:55:58.719-0700] {dag.py:3696} INFO - Setting next_dagrun for gdpr_ccpa_risk_pipeline to 2025-07-17T06:00:00+00:00, run_after=2025-07-17T07:00:00+00:00
+[2025-07-16T23:55:59.435-0700] {processor.py:179} INFO - Processing /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py took 26.690 seconds

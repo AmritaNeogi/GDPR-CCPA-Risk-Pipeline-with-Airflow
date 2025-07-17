@@ -1,36 +1,54 @@
+# scripts/forecast_policy_trends.py
+
 import os
-import json
+import pandas as pd
+from prophet import Prophet
 from datetime import datetime
 
-def forecast_policy_trends():
-    """
-    Placeholder for forecasting logic.
-    Reads the processed policy data and writes a dummy forecast output.
-    """
-    input_path = os.path.join("airflow_home", "data", "processed_policy_data.json")
-    output_path = os.path.join("airflow_home", "data", "forecasted_trends.json")
 
-    if not os.path.exists(input_path):
-        raise FileNotFoundError(f"Processed data not found at: {input_path}")
+def forecast_policy_trends(periods=7, freq='D'):
+    """
+    Read processed policy dates from cleaned_policies.csv, fit a Prophet model
+    on daily counts, and produce a CSV with forecasts.
+
+    Args:
+        periods (int): how many future periods to forecast (default 7)
+        freq (str): frequency string for Prophet (e.g. 'D' for daily)
+    """
+    # Paths
+    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    processed_path = os.path.join(base_dir, 'data', 'processed', 'cleaned_policies.csv')
+    forecast_dir = os.path.join(base_dir, 'data', 'forecasts')
+    os.makedirs(forecast_dir, exist_ok=True)
 
     # Load processed data
-    with open(input_path, "r") as f:
-        data = json.load(f)
+    df = pd.read_csv(processed_path)
+    if df.empty:
+        print("No processed policies to forecast.")
+        return
 
-    # Placeholder: mock trend detection logic
-    forecasted = {
-        "summary": "No significant policy trend changes detected.",
-        "generated_at": datetime.utcnow().isoformat() + "Z",
-        "sources_evaluated": len(data.get("policies", [])),
-        "regions_flagged": [],
-        "confidence_score": 0.85,
-    }
+    # Prepare time series: daily counts
+    df['date'] = pd.to_datetime(df['date'], dayfirst=True, errors='coerce')
+    counts = df.groupby('date').size().reset_index(name='y')
+    counts.rename(columns={'date': 'ds'}, inplace=True)
 
-    # Create output directory if needed
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    # Fit Prophet model
+    m = Prophet()
+    m.fit(counts)
 
-    # Save the forecast
-    with open(output_path, "w") as f:
-        json.dump(forecasted, f, indent=2)
+    # Future dataframe
+    future = m.make_future_dataframe(periods=periods, freq=freq)
+    forecast = m.predict(future)
 
-    print(f"[forecast_policy_trends] Forecast written to {output_path}")
+    # Select relevant cols
+    out = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']]
+
+    # Write CSV
+    ts = datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')
+    out_path = os.path.join(forecast_dir, f'forecast_{ts}.csv')
+    out.to_csv(out_path, index=False)
+    print(f"Wrote forecast to {out_path}")
+
+
+if __name__ == '__main__':
+    forecast_policy_trends()

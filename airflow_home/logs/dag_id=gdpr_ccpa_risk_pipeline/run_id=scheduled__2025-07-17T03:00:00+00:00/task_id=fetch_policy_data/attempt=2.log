@@ -1,0 +1,11 @@
+[2025-07-16T23:17:11.682-0700] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: gdpr_ccpa_risk_pipeline.fetch_policy_data scheduled__2025-07-17T03:00:00+00:00 [queued]>
+[2025-07-16T23:17:11.693-0700] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: gdpr_ccpa_risk_pipeline.fetch_policy_data scheduled__2025-07-17T03:00:00+00:00 [queued]>
+[2025-07-16T23:17:11.694-0700] {taskinstance.py:1359} INFO - Starting attempt 2 of 2
+[2025-07-16T23:17:11.735-0700] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): fetch_policy_data> on 2025-07-17 03:00:00+00:00
+[2025-07-16T23:17:11.752-0700] {standard_task_runner.py:57} INFO - Started process 17898 to run task
+[2025-07-16T23:17:11.755-0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'gdpr_ccpa_risk_pipeline', 'fetch_policy_data', 'scheduled__2025-07-17T03:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/gdpr_ccpa_risk_pipeline.py', '--cfg-path', '/var/folders/qv/gh2d3t7x7xqgkvbl149fblxr0000gn/T/tmps0dnxup_']
+[2025-07-16T23:17:11.771-0700] {standard_task_runner.py:85} INFO - Job 30: Subtask fetch_policy_data
+[2025-07-16T23:17:11.924-0700] {task_command.py:415} INFO - Running <TaskInstance: gdpr_ccpa_risk_pipeline.fetch_policy_data scheduled__2025-07-17T03:00:00+00:00 [running]> on host amritas-macbook-pro.local
+[2025-07-16T23:17:12.092-0700] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='gdpr_ccpa_risk_pipeline' AIRFLOW_CTX_TASK_ID='fetch_policy_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-17T03:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-17T03:00:00+00:00'
+[2025-07-16T23:17:55.459-0700] {process_utils.py:131} INFO - Sending 15 to group 17898. PIDs of all processes in the group: [17898]
+[2025-07-16T23:17:55.461-0700] {process_utils.py:86} INFO - Sending the signal 15 to group 17898
