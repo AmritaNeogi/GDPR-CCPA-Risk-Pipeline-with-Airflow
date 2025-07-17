@@ -1,74 +1,65 @@
-# scripts/process_policy_data.py
-
 import os
-import json
 import glob
-import csv
+import pandas as pd
 import xml.etree.ElementTree as ET
-from datetime import datetime
+import json
 
-RAW_DIR = os.path.join(os.path.dirname(__file__), "../data/raw")
-PROCESSED_DIR = os.path.join(os.path.dirname(__file__), "../data/processed")
-
-def process_policy_data():
+def parse_policy_xml(xml_file):
     """
-    Pick the newest raw file (XML or dummy JSON),
-    extract each item, classify as GDPR/CCPA/Other,
-    and write cleaned CSV to data/processed.
+    Parses a single XML file and returns a list of policy records as dictionaries.
     """
-    # ensure output folder exists
-    os.makedirs(PROCESSED_DIR, exist_ok=True)
+    try:
+        tree = ET.parse(xml_file)
+        root = tree.getroot()
 
-    # find latest file
-    files = sorted(glob.glob(os.path.join(RAW_DIR, "*")))
-    latest = files[-1]
-    print(f"Processing raw file: {latest}")
+        records = []
+        for policy in root.findall(".//policy"):
+            record = {
+                "id": policy.findtext("id"),
+                "jurisdiction": policy.findtext("jurisdiction"),
+                "title": policy.findtext("title"),
+                "description": policy.findtext("description"),
+                "issued_date": policy.findtext("issued_date"),
+                "source": policy.findtext("source")
+            }
+            records.append(record)
 
-    raw_bytes = open(latest, "rb").read()
-    text = raw_bytes.lstrip()
+        return records
+    except Exception as e:
+        print(f"[ERROR] Failed to parse {xml_file}: {e}")
+        return []
 
-    items = []
-    # JSON dummy?
-    if text.startswith(b"{"):
-        data = json.loads(raw_bytes)
-        for entry in data.get("policies", []):
-            items.append({
-                "title": entry.get("title"),
-                "link": entry.get("link", ""),
-                "pubDate": entry.get("date"),
-                "source": entry.get("source")
-            })
-    else:
-        # parse RSS XML
-        tree = ET.fromstring(raw_bytes)
-        channel = tree.find("channel")
-        for elem in channel.findall("item"):
-            title   = elem.findtext("title", default="")
-            link    = elem.findtext("link", default="")
-            pubDate = elem.findtext("pubDate", default="")
-            cats    = [c.text.upper() for c in elem.findall("category")]
-            # simple classification
-            if any("CCPA" in c for c in cats):
-                source = "CCPA"
-            elif any("GDPR" in c for c in cats):
-                source = "GDPR"
-            else:
-                source = "Other"
-            items.append({
-                "title": title,
-                "link": link,
-                "pubDate": pubDate,
-                "source": source
-            })
+def main():
+    raw_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../data/raw"))
+    processed_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../data/processed"))
+    airflow_data_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../airflow_home/data"))
 
-    # write to CSV
-    out_path = os.path.join(PROCESSED_DIR, "cleaned_policies.csv")
-    with open(out_path, "w", newline="", encoding="utf-8") as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=["title", "link", "pubDate", "source"])
-        writer.writeheader()
-        writer.writerows(items)
+    os.makedirs(processed_dir, exist_ok=True)
+    os.makedirs(airflow_data_dir, exist_ok=True)
 
-    print(f"Wrote processed data to {out_path}")
+    all_records = []
+
+    for xml_file in glob.glob(os.path.join(raw_dir, "*.xml")):
+        print(f"Processing raw file: {xml_file}")
+        records = parse_policy_xml(xml_file)
+        all_records.extend(records)
+
+    if not all_records:
+        print("No policy records found.")
+        return
+
+    df = pd.DataFrame(all_records)
+
+    # Write to CSV
+    csv_path = os.path.join(processed_dir, "cleaned_policies.csv")
+    df.to_csv(csv_path, index=False)
+    print(f"Wrote processed data to {csv_path}")
+
+    # Write to JSON for downstream Airflow task
+    json_path = os.path.join(airflow_data_dir, "processed_policy_data.json")
+    with open(json_path, "w") as f:
+        json.dump(df.to_dict(orient="records"), f, indent=2)
+    print(f"Wrote JSON for Airflow to {json_path}")
 
 if __name__ == "__main__":
-    process_policy_data()
+    main()

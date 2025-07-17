@@ -1,52 +1,48 @@
-# dags/gdpr_ccpa_risk_pipeline.py
-
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
+import sys
+import os
 
+# Step 1: Add the project root to sys.path
+# Assumes this file is in `dags/` and `scripts/` is in the project root
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+# Step 2: Now we can safely import the script
+from scripts.fetch_policy_data import fetch_policy_data
+from scripts.process_policy_data import process_policy_data
+from scripts.forecast_policy_trends import forecast_policy_trends
+
+# Step 3: DAG definition
 default_args = {
-    "owner": "airflow",
-    "depends_on_past": False,
-    "retries": 1,
-    "retry_delay": timedelta(minutes=5),
-    "start_date": datetime(2025, 7, 16),
+    'owner': 'airflow',
+    'retries': 1,
+    'retry_delay': timedelta(minutes=5),
 }
 
-def fetch_policy():
-    from scripts.fetch_policy_data import fetch_policy_data
-    fetch_policy_data()
-
-def process_policy():
-    from scripts.process_policy_data import process_policy_data
-    process_policy_data()
-
-def forecast_policy():
-    from scripts.forecast_policy_trends import forecast_policy_trends
-    # forecast next 7 days
-    forecast_policy_trends(periods=7)
-
 with DAG(
-    dag_id="gdpr_ccpa_risk_pipeline",
+    dag_id='gdpr_ccpa_risk_pipeline',
     default_args=default_args,
-    schedule_interval="@hourly",
+    description='Fetch, process & forecast GDPR/CCPA policy updates hourly',
+    schedule_interval='@hourly',
+    start_date=datetime(2025, 7, 15),
     catchup=False,
-    description="Fetch, process & forecast GDPR/CCPA policy updates hourly",
+    tags=['gdpr', 'ccpa', 'risk'],
 ) as dag:
 
     task_fetch = PythonOperator(
-        task_id="fetch_policy_data",
-        python_callable=fetch_policy,
+        task_id='fetch_policy_data',
+        python_callable=fetch_policy_data,
     )
 
     task_process = PythonOperator(
-        task_id="process_policy_data",
-        python_callable=process_policy,
+        task_id='process_policy_data',
+        python_callable=process_policy_data,
     )
 
     task_forecast = PythonOperator(
-        task_id="forecast_policy_trends",
-        python_callable=forecast_policy,
+        task_id='forecast_policy_trends',
+        python_callable=forecast_policy_trends,
     )
 
-    # Chain all three
     task_fetch >> task_process >> task_forecast
