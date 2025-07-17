@@ -3417,3 +3417,358 @@ File Path                                                                       
 --------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
 /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           1           0  29.72s          2025-07-16T23:44:03
 ================================================================================
+[2025-07-16T18:51:25.996-0700] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2025-07-16T20:15:14.985-0700] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2025-07-16T20:15:14.988-0700] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-07-16T20:15:14.989-0700] {manager.py:489} INFO - Checking for new files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags every 300 seconds
+[2025-07-16T20:15:14.989-0700] {manager.py:759} INFO - Searching for files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T20:15:15.000-0700] {manager.py:762} INFO - There are 1 files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T20:15:45.886-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  28.46s          2025-07-17T03:15:45
+================================================================================
+[2025-07-16T20:17:06.312-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  31.55s          2025-07-17T03:17:06
+================================================================================
+[2025-07-16T20:18:35.541-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  58.86s          2025-07-17T03:18:35
+================================================================================
+[2025-07-16T20:19:37.709-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  31.35s          2025-07-17T03:19:37
+================================================================================
+[2025-07-16T20:20:37.787-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  29.70s          2025-07-17T03:20:37
+================================================================================
+[2025-07-16T20:20:39.217-0700] {manager.py:759} INFO - Searching for files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T20:20:39.226-0700] {manager.py:762} INFO - There are 1 files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T20:21:49.894-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  41.88s          2025-07-17T03:21:49
+================================================================================
+[2025-07-16T20:22:47.923-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  27.92s          2025-07-17T03:22:47
+================================================================================
+[2025-07-16T20:23:47.576-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  28.65s          2025-07-17T03:23:47
+================================================================================
+[2025-07-16T20:24:49.149-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  30.95s          2025-07-17T03:24:49
+================================================================================
+[2025-07-16T20:25:29.653-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  10.03s          2025-07-17T03:25:29
+================================================================================
+[2025-07-16T20:25:39.652-0700] {manager.py:759} INFO - Searching for files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T20:25:39.659-0700] {manager.py:762} INFO - There are 1 files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T20:26:36.103-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  36.10s          2025-07-17T03:26:36
+================================================================================
+[2025-07-16T20:27:43.940-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  37.47s          2025-07-17T03:27:43
+================================================================================
+[2025-07-16T20:28:51.148-0700] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2025-07-16T20:49:24.043-0700] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2025-07-16T20:49:24.066-0700] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-07-16T20:49:24.078-0700] {manager.py:489} INFO - Checking for new files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags every 300 seconds
+[2025-07-16T20:49:24.078-0700] {manager.py:759} INFO - Searching for files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T20:49:24.134-0700] {manager.py:762} INFO - There are 1 files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T20:50:04.996-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  38.41s          2025-07-17T03:50:04
+================================================================================
+[2025-07-16T20:51:14.692-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  39.21s          2025-07-17T03:51:14
+================================================================================
+[2025-07-16T20:52:21.754-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  36.83s          2025-07-17T03:52:21
+================================================================================
+[2025-07-16T20:53:30.056-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  37.61s          2025-07-17T03:53:30
+================================================================================
+[2025-07-16T20:54:35.302-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  34.64s          2025-07-17T03:54:35
+================================================================================
+[2025-07-16T20:54:37.236-0700] {manager.py:759} INFO - Searching for files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T20:54:37.285-0700] {manager.py:762} INFO - There are 1 files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T20:55:53.179-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  46.52s          2025-07-17T03:55:53
+================================================================================
+[2025-07-16T20:57:09.018-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  45.07s          2025-07-17T03:57:08
+================================================================================
+[2025-07-16T20:58:23.110-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  43.07s          2025-07-17T03:58:23
+================================================================================
+[2025-07-16T20:59:32.664-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  38.82s          2025-07-17T03:59:32
+================================================================================
+[2025-07-16T20:59:38.126-0700] {manager.py:759} INFO - Searching for files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T20:59:38.136-0700] {manager.py:762} INFO - There are 1 files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T21:00:47.607-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  44.19s          2025-07-17T04:00:47
+================================================================================
+[2025-07-16T21:01:59.664-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  40.95s          2025-07-17T04:01:59
+================================================================================
+[2025-07-16T21:03:14.302-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  43.88s          2025-07-17T04:03:14
+================================================================================
+[2025-07-16T21:04:28.099-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  42.83s          2025-07-17T04:04:28
+================================================================================
+[2025-07-16T21:04:38.221-0700] {manager.py:759} INFO - Searching for files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T21:04:38.336-0700] {manager.py:762} INFO - There are 1 files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T21:05:22.735-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  23.50s          2025-07-17T04:05:22
+================================================================================
+[2025-07-16T21:06:12.829-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  19.66s          2025-07-17T04:06:12
+================================================================================
+[2025-07-16T21:06:58.611-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  15.46s          2025-07-17T04:06:58
+================================================================================
+[2025-07-16T21:07:46.767-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  17.87s          2025-07-17T04:07:46
+================================================================================
+[2025-07-16T21:08:24.870-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  7.86s           2025-07-17T04:08:24
+================================================================================
+[2025-07-16T21:09:07.006-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  11.78s          2025-07-17T04:09:06
+================================================================================
+[2025-07-16T21:09:40.500-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  13.13s          2025-07-17T04:09:40
+================================================================================
+[2025-07-16T21:09:41.643-0700] {manager.py:759} INFO - Searching for files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T21:09:41.644-0700] {manager.py:762} INFO - There are 1 files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T21:10:11.252-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  11.95s          2025-07-17T04:10:04
+================================================================================
+[2025-07-16T21:10:46.212-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  11.00s          2025-07-17T04:10:46
+================================================================================
+[2025-07-16T21:11:28.078-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  11.62s          2025-07-17T04:11:28
+================================================================================
+[2025-07-16T21:11:50.193-0700] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2025-07-16T21:33:27.695-0700] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2025-07-16T21:33:27.696-0700] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-07-16T21:33:27.696-0700] {manager.py:489} INFO - Checking for new files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags every 300 seconds
+[2025-07-16T21:33:27.696-0700] {manager.py:759} INFO - Searching for files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T21:33:27.705-0700] {manager.py:762} INFO - There are 1 files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T21:33:44.677-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  16.51s          2025-07-17T04:33:44
+================================================================================
+[2025-07-16T21:34:41.974-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           0           1  26.78s          2025-07-17T04:34:41
+================================================================================
+[2025-07-16T21:35:43.379-0700] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2025-07-16T21:40:17.317-0700] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2025-07-16T21:40:17.320-0700] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-07-16T21:40:17.327-0700] {manager.py:489} INFO - Checking for new files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags every 300 seconds
+[2025-07-16T21:40:17.329-0700] {manager.py:759} INFO - Searching for files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T21:40:17.345-0700] {manager.py:762} INFO - There are 1 files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T21:40:48.969-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           1           0  30.63s          2025-07-17T04:40:48
+================================================================================
+[2025-07-16T21:53:43.690-0700] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2025-07-16T22:28:46.355-0700] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2025-07-16T22:28:46.356-0700] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-07-16T22:28:46.364-0700] {manager.py:489} INFO - Checking for new files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags every 300 seconds
+[2025-07-16T22:28:46.365-0700] {manager.py:759} INFO - Searching for files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T22:28:46.374-0700] {manager.py:762} INFO - There are 1 files in /Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags
+[2025-07-16T22:29:26.251-0700] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Volumes/Personal Drive/GitHub/gdpr-ccpa-risk-pipeline/dags/gdpr_ccpa_risk_pipeline.py                           1           0  38.95s          2025-07-17T05:29:26
+================================================================================
+[2025-07-16T23:16:31.974-0700] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
