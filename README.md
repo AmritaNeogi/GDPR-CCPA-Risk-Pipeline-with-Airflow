@@ -14,8 +14,8 @@ Global Regulatory Insights & Risk Prioritization; Automated policy-risk forecast
                         │    (gdpr_ccpa_risk_pipeline.py)         │
                         └─────────────────────────────────────────┘
                                        │           │
+                                 Schedules & Dependencies
                                        │           │
-        Schedules & Dependencies       │           │
                                        ▼           ▼
        ┌────────────────────────────────────────────────────────────────────────┐
        │                           DATA INGESTION LAYER                         │
@@ -53,7 +53,7 @@ Global Regulatory Insights & Risk Prioritization; Automated policy-risk forecast
          ┌────────────────────────────────────────────────────────────────────────┐
          │                          SEVERITY MODELING MODULE                      │
          └────────────────────────────────────────────────────────────────────────┘
-                                              │
+                                            │
                        Manual/Offline Step (Jupyter ML notebooks)
                                             │
                                             ▼
