@@ -7,12 +7,12 @@ Global Regulatory Insights & Risk Prioritization; Automated policy-risk forecast
 
 <div class="image-container"><img src="/pictures/Overview.png" alt="Project Image"> </div>
 
-## Pipeline <br>
+## Detailed Pipeline <br>
 
 <div class="image-container"><img src="/pictures/pipeline.png" alt="Project Image"> </div>
 
 
-## Risk Pipeline Architecture (with Severity Modeling)
+## Architecture (with Severity Modeling) <br>
                         ┌─────────────────────────────────────────┐
                         │        Airflow Orchestration DAG        │
                         │    (gdpr_ccpa_risk_pipeline.py)         │
