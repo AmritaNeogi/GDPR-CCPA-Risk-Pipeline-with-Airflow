@@ -2,12 +2,7 @@
 # Automated Data Pipeline & Predictive Analytics Platform: Regulatory Data Standards & Reporting (daily ingestion)
 Global Regulatory Insights & Risk Prioritization; Automated policy-risk forecasting & prioritization for GDPR/CCPA
 
-
 ## Overview <br>
-
-<div class="image-container"><img src="/pictures/Overview.png" alt="Project Image"> </div>
-
-## Detailed Pipeline <br>
 
 <div class="image-container"><img src="/pictures/pipeline.png" alt="Project Image"> </div>
 
