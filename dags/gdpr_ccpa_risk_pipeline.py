@@ -24,13 +24,16 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 
-# Import script functions
+# Import pipeline functions from the package
 try:
-    from scripts.fetch_policy_data import fetch_policy_data
-    from scripts.process_policy_data import process_policy_data
-    from scripts.forecast_policy_trends import forecast_policy_trends
+    from gdpr_pipeline import (
+        fetch_policy_data,
+        process_policy_data,
+        forecast_policy_trends,
+    )
 except ImportError as e:
-    raise ImportError(f"Error importing scripts modules: {e}")
+    raise ImportError(f"Error importing gdpr_pipeline modules: {e}")
+
 
 # Default task arguments
 default_args = {
