@@ -6,6 +6,17 @@
 
 <div class="image-container"><img src="/pictures/pipeline.png" alt="Project Image"> </div>
 
+## 📊 Interactive GDPR–CCPA Regulatory Risk Dashboard
+
+🔗 **View the live interactive dashboard:**  
+https://public.tableau.com/views/GDPRDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&publish=yes&showOnboarding=true&:display_count=n&:origin=viz_share_link
+
+This dashboard includes:
+- Time-series severity forecasting  
+- Monthly policy volumes  
+- Severity breakdown across topics  
+- High-severity topics  
+- Topic–severity heatmap  
 
 ## Architecture (with Severity Modeling) <br>
                         ┌─────────────────────────────────────────┐
