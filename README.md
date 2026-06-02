@@ -1,6 +1,6 @@
-
-# Global Regulatory Insights & Risk Prioritization: 
-###  Automated policy-risk forecasting & prioritization for GDPR/CCPA
+# REGULATORY RISK ANALYTICS:
+## Global Regulatory Insights & Risk Prioritization
+### Automated policy-risk forecasting & prioritization for GDPR/CCPA
 
 ## Overview <br>
 
